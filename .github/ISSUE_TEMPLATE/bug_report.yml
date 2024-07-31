@@ -1,5 +1,5 @@
 name: "Bug report"
-description: "Did you find a bug? Report it with this one"
+description: "Did you find a bug? Report it with this template."
 title: "[Bug] "
 labels: ["bug"]
 projects: ["pvarki/24"]
@@ -7,7 +7,10 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: "# Bug\n## What - Describe the bug"
+      value: "# Bug"
+  - type: markdown
+    attributes:
+      value: "## What - Describe the bug"
   - type: textarea
     id: bug-description
     attributes:
@@ -31,13 +34,16 @@ body:
   - type: textarea
     id: actual-behavior
     attributes:
-      description: "What happened instead, which is the bug?"
+      description: "What happened instead?"
     validations:
       required: true
 
   - type: markdown
     attributes:
-      value: "# Additional information (Optional)\n## Screenshots"
+      value: "# Additional information (Optional)"
+  - type: markdown
+    attributes:
+      value: "## Screenshots"
   - type: textarea
     id: screenshots
     attributes:
@@ -52,11 +58,11 @@ body:
     id: steps-to-reproduce
     attributes:
       description: |
-        Outline steps you think will lead to replication of this bug.
+        Outline steps, that you think to be necessary to replicate of this bug.
         1. Go to '...'
         2. Click on '....'
         3. Scroll down to '....'
-        4. See error
+        4. Get the error message
     validations:
       required: false
 
@@ -72,7 +78,10 @@ body:
 
   - type: markdown
     attributes:
-      value: "# Why & Workaround (Optional)\n## Why?"
+      value: "# Why & Workaround (Optional)"
+  - type: markdown
+    attributes:
+      value: "## Why the bug happens?"
   - type: textarea
     id: reason
     attributes:
@@ -86,6 +95,6 @@ body:
   - type: textarea
     id: workaround
     attributes:
-      description: "If you know a workaround (not a fix but ability to continue operation even if the bug's in place), tell it here."
+      description: "If you know a workaround (not a fix, but ability to continue operation even if the bug's in place), tell it here."
     validations:
       required: false
