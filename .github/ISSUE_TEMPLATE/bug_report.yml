@@ -12,6 +12,7 @@ body:
     attributes:
       value: |
         Describe the bug below. Three first forms are mandatory, rest optional.
+
   - type: textarea
     id: bug-description
     attributes:
@@ -33,13 +34,15 @@ body:
       description: "What happened instead, which is the bug?"
     validations:
       required: true
+
   - type: markdown
     attributes:
       value: "# Additional information (Optional)"
   - type: markdown
-      attributes:
-        value: |
-          If applicable, please tell us more about the bug below!
+    attributes:
+      value: |
+        If applicable, please tell us more about the bug below!
+
   - type: textarea
     id: screenshots
     attributes:
@@ -66,13 +69,15 @@ body:
       description: "Under what configuration you ran into the bug? E.g. with which device, browser and under which conditions server was ran, as far as you know."
     validations:
       required: false
+
   - type: markdown
     attributes:
       value: "# Why & Workaround (Optional)"
   - type: markdown
-      attributes:
-        value: |
-          If you happen to know or guess why the bug happens and how to workaround it, please describe those below!
+    attributes:
+      value: |
+        If you happen to know or guess why the bug happens and how to workaround it, please describe those below!
+  
   - type: textarea
     id: reason
     attributes:
