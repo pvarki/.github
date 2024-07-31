@@ -7,53 +7,50 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: "# Bug"
-  - type: markdown
-    attributes:
-      value: |
-        Describe the bug below. Three first forms are mandatory, rest optional.
-
+      value: "# Bug\n## What - Describe the bug"
   - type: textarea
     id: bug-description
     attributes:
-      label: "What - Describe the bug"
       description: "Outline the bug. What is it, and what does it affect?"
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "## What I expected to happen"
   - type: textarea
     id: expected-behavior
     attributes:
-      label: "What I expected to happen"
       description: "What were you doing, and what did you expect to happen?"
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "## What happened instead"
   - type: textarea
     id: actual-behavior
     attributes:
-      label: "What happened instead"
       description: "What happened instead, which is the bug?"
     validations:
       required: true
 
   - type: markdown
     attributes:
-      value: "# Additional information (Optional)"
-  - type: markdown
-    attributes:
-      value: |
-        If applicable, please tell us more about the bug below!
-
+      value: "# Additional information (Optional)\n## Screenshots"
   - type: textarea
     id: screenshots
     attributes:
-      label: "Screenshots"
       description: "If applicable, screenshots are of much help."
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: "## How to reproduce the bug?"
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: "How to reproduce the bug?"
       description: |
         Outline steps you think will lead to replication of this bug.
         1. Go to '...'
@@ -62,33 +59,33 @@ body:
         4. See error
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: "## User configuration"
   - type: textarea
     id: user-configuration
     attributes:
-      label: "User configuration"
       description: "Under what configuration you ran into the bug? E.g. with which device, browser and under which conditions server was ran, as far as you know."
     validations:
       required: false
 
   - type: markdown
     attributes:
-      value: "# Why & Workaround (Optional)"
-  - type: markdown
-    attributes:
-      value: |
-        If you happen to know or guess why the bug happens and how to workaround it, please describe those below!
-  
+      value: "# Why & Workaround (Optional)\n## Why?"
   - type: textarea
     id: reason
     attributes:
-      label: "Why?"
       description: "If you know or guess the reason behind the bug, tell it here."
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: "## Workaround"
   - type: textarea
     id: workaround
     attributes:
-      label: "Workaround"
       description: "If you know a workaround (not a fix but ability to continue operation even if the bug's in place), tell it here."
     validations:
       required: false
