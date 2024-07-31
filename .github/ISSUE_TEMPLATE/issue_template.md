@@ -16,9 +16,9 @@ What were you doing, and what did you expect to happen?
 ## What happened instead
 What happened instead?
 
----
+###
 REMOVE BELOW IF YOU WON'T FILL THEM
---- 
+###
 
 # 2. Additional information (Optional)
 ## Screenshots
