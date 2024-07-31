@@ -1,7 +1,8 @@
 name: "Bug report"
-description: "Create a report to help us improve"
+description: "Did you find a bug? Report it with this one"
 title: "[Bug] "
 labels: ["bug"]
+projects: ["pvarki/24"]
 assignees: []
 body:
   - type: textarea
