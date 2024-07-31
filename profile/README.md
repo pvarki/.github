@@ -1,4 +1,4 @@
-# PVARKI-digiprojekti
+# PVARKI
 ### External frontpage
 
 ## Collaboration best practices - Developer, attention!
