@@ -7,8 +7,10 @@ assignees: []
 body:
   - type: markdown
     attributes:
+      value: "# Bug"
+  - type: markdown
+    attributes:
       value: |
-        # Bug
         Describe the bug below. Three first forms are mandatory, rest optional.
   - type: textarea
     id: bug-description
@@ -32,9 +34,11 @@ body:
     validations:
       required: true
   - type: markdown
+    attributes:
+      value: "# Additional information (Optional)"
+  - type: markdown
       attributes:
         value: |
-          # Additional information
           If applicable, please tell us more about the bug below!
   - type: textarea
     id: screenshots
@@ -63,9 +67,11 @@ body:
     validations:
       required: false
   - type: markdown
+    attributes:
+      value: "# Why & Workaround (Optional)"
+  - type: markdown
       attributes:
         value: |
-          # Why & Workaround (Optional)
           If you happen to know or guess why the bug happens and how to workaround it, please describe those below!
   - type: textarea
     id: reason
