@@ -3,7 +3,7 @@ name: "Product backlog item"
 about: "Describe stuff as product backlog items for easy progressing with the task."
 title: "[User story request] "
 projects: ["pvarki/24"]
-labels: ["story"]
+labels: ["product backlog item"]
 assignees: []
 ---
 ## User story
