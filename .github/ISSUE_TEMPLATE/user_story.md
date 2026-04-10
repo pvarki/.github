@@ -1,19 +1,19 @@
 ---
-name: "User story"
-about: "Need something new? Can describe it with a story? That's the best way to ask for new features. Use this template for writing your user story down."
+name: "Product backlog item"
+about: "Describe stuff as product backlog items for easy progressing with the task."
 title: "[User story request] "
 projects: ["pvarki/24"]
 labels: ["story"]
 assignees: []
 ---
-# User story
+## User story
 As **THE USER**,
 
 I want to **DO THIS THING**,
 
 to **GET THIS BUSINESS VALUE.**
 
-# Definition of Done
+## Acceptance Criteria
 Outline what you think are requirements for this story to be considered Completed.
 - [ ] User can do this
 - [ ] And this
