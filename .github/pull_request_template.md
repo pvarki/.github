@@ -1,4 +1,4 @@
-## User-facing summary
+## User-Facing Summary
 Example new feature:
 - Added new authentication flow
 Example fix to a feature:
@@ -8,5 +8,5 @@ Example fix to a feature:
 - Improves security posture
 - Reduces infrastructure costs
 
-## Any Other You'd Like to Mention
+## Anything Else You'd Like to Mention
 - Open word
