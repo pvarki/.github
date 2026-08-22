@@ -1,5 +1,5 @@
-# PVARKI
-### External frontpage
+# OpenDefence
+OpenDefence (old name PVARKI) is a defence open source project. See the docs at https://docs.opendefence.fi. 
 
 ## Getting started
 
