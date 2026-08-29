@@ -1,12 +1,16 @@
-## User-Facing Summary
-Example new feature:
-- Added new authentication flow
-Example fix to a feature:
-- Fixed memory leak in cache
+## Description
+<!-- What changed and why? How were the changes tested? -->
 
-## Why It's Good for the Product (Release Goal)
-- Improves security posture
-- Reduces infrastructure costs
+## User-Facing Changes
+<!--
+Used in the release notes, write from the user's point of view.
+One ### per change, a screenshot can be included.
+No user-visible changes? Remove this section.
+-->
+<!-- releasenote:start -->
+### Short title of the change
+A few sentences describing the change to a user.
+<!-- releasenote:end -->
 
 ## Anything Else You'd Like to Mention
-- Open word
+<!-- Open word -->
